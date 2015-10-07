@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splasscreen"
+    android:layout_gravity="center"
+    tools:context="gioi.developer.pilacha_hd.SplassScreen" >
+
+    <Button
+        android:id="@+id/splassscreen_quit"
+        style="@style/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/click_button"
+        android:text="QUIT" />
+
+    <Button
+        android:id="@+id/start"
+        style="@style/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/splassscreen_quit"
+        android:background="@drawable/click_button"
+        android:text="START" />
+
+</RelativeLayout>
